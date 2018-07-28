@@ -92,7 +92,7 @@ class Tarjetas extends Component {
 Tarjetas.propTypes = propTypes;
 
 const mapStateToProps = (state)=>{
-    console.log(state);
+    //console.log(state);
     return {
         tarjetas: state.tarjetas
     }
